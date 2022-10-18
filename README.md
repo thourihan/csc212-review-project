@@ -56,7 +56,7 @@ void printResults(Grader &grader){
 }
 ```
 
-##Header File
+## Header File
 
 ```
 #ifndef CSC212_REVIEW_PROJECT_GRADER_H
