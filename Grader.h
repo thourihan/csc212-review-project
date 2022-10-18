@@ -5,19 +5,19 @@ using namespace std;
 
 class Grader {
     public:
-        vector<int> labGrades;
-        vector<int> assignmentGrades;
-        int termProject;
-        int finalExam;
-        int reviewProject;
-        vector<int> allGradesWeighted;
+        vector<double> labGrades;
+        vector<double> assignmentGrades;
+        double termProject;
+        double finalExam;
+        double reviewProject;
+        vector<double> allGradesWeighted;
 
         double currentGrade;
         double maxGradeAchievable;
 
         void startGrading();
-        double getCurrentGrade(vector<int> allGradesWeighted);
-        double getMaxGradeAchievable(vector<int> allGradesWeighted);
+        double getCurrentGrade();
+        double getMaxGradeAchievable();
 
 };
 
