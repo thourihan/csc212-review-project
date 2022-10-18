@@ -20,12 +20,51 @@ int main() {
 // Get input grades from user
 void getInput(Grader &grader){
     // Walk user through how to enter their grades for each category
+    cout << "Input grade at each category" << endl;
+    vector<string> categories = {"Labs", "Assignments", "Term Project", "Final Exam", "Review Project"};
 
-    // For each category in the Grader class instance:
+    // For each category 
+     for (int i = 0; i < categories.size(); i++){
+        int temp = 0;
+        cout << "How many grades do you have for " << categories[i] << std::endl;
+
+        cin >> temp;
+
+        cout << "Enter your grade for: " << categories[i] << std::endl; 
+
+        for(int j = 0; j < temp; j++){
+            double grades;
+
+            if(categories[i] == "Labs"){
+                cin >> grades;
+                grader.labGrades.push_back(grades);
+            }
+
+            else if(categories[i] == "Assignments"){
+                cin >> grades;
+                grader.assignmentGrades.push_back(grades);
+            }
+
+            else if(categories[i] == "Term Project"){
+                cin >> grades;
+                grader.termProject = grades;
+            }
+
+            else if(categories[i] == "Final Exam"){
+                cin >> grades;
+                grader.finalExam = grades;
+            }
+
+            else if(categories[i] == "Review Project"){
+                cin >> grades;
+                grader.reviewProject = grades;
+            }
+        }
+        // cout enter grade for category[i]
         // Prompt user how many grades they have
         // For each grade the user has to enter:
             // Add grade to its category vector in the Grader class instance
-            // Also add grade * its weight to the allGradesWeighted vector
+    }
 }
 
 void printResults(Grader &grader){
