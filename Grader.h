@@ -4,7 +4,7 @@
 using namespace std;
 
 class Grader {
-    private:
+    public:
         vector<int> labGrades;
         vector<int> assignmentGrades;
         int termProject;
@@ -12,10 +12,10 @@ class Grader {
         int reviewProject;
         vector<vector<int>> allGrades;
 
-        void getAllGrades(vector<int>, vector<int>, int, int, int);
-    public:
-        double curretCalculatedGrade(vector<int> grades);
+        void startGrading();
+        double currentGrade(vector<int> grades);
         double maximumGradeAchievable(vector<int> grades);
+
 };
 
 
