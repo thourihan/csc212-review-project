@@ -109,7 +109,8 @@ void Grader::startGrading() {
     
     // Get max grade achievable
     maxGradeAchievable = getMaxGradeAchievable(this->allGrades);
-}```
+}
+```
 
 # Proof of Planning: Flowcharts
 
