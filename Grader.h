@@ -10,14 +10,14 @@ class Grader {
         int termProject;
         int finalExam;
         int reviewProject;
-        vector<vector<int>> allGrades;
+        vector<int> allGradesWeighted;
 
         double currentGrade;
         double maxGradeAchievable;
 
         void startGrading();
-        double getCurrentGrade(vector<vector<int>> grades);
-        double getMaxGradeAchievable(vector<vector<int>> grades);
+        double getCurrentGrade(vector<int> allGradesWeighted);
+        double getMaxGradeAchievable(vector<int> allGradesWeighted);
 
 };
 
