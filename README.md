@@ -14,8 +14,9 @@ Our program does abc because xyz...
 - Jagger - jkl
 
 # Proof of Planning: Pseudocode
+## Main function Skeleton
 ```
-##Main
+
 #include "Grader.h"
 
 void getInput(Grader &grader);
