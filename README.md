@@ -3,8 +3,13 @@ Review Project for CSC212
 
 Group Members: Phakeo Arounerangsy, Henry Gutierrez, Timothy Hourihan, Jagger Pacheco
 
+# Summary of Program + Group Contributions
+Phakeo - abc
+Henry - def
+Tim - ghi
+Jagger - jkl
 
-# Pseudocode section
+# Proof of Planning: Pseudocode
 ```
 #include "Grader.h"
 
@@ -44,3 +49,12 @@ void printResults(Grader &grader){
     // Show the maximum possible grade achievable if the student earns a 100 on everything in the future
 }
 ```
+
+# Proof of Planning: Flowcharts
+
+# Algorithm explained: Input/Output and Reasoning
+
+# Instructions for Input && Compiling Program
+
+
+
