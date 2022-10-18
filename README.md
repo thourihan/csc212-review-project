@@ -3,11 +3,15 @@ Review Project for CSC212
 
 Group Members: Phakeo Arounerangsy, Henry Gutierrez, Timothy Hourihan, Jagger Pacheco
 
-# Summary of Program + Group Contributions
-Phakeo - Created flowcharts and videos demonstrating how program runs. Helped with program pseudocode. 
-Henry - def
-Tim - Created program pseudocode. Helped with readme.md
-Jagger - jkl
+# Summary of Program + Group Member Contributions
+## Summary of Program
+Our program does abc because xyz...
+
+## Group Member Contributions
+- Phakeo - Created flowcharts and videos demonstrating how program runs. Helped with program pseudocode. 
+- Henry - def
+- Tim - Created program pseudocode. Helped with readme.md
+- Jagger - jkl
 
 # Proof of Planning: Pseudocode
 ```
