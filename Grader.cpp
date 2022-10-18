@@ -1,6 +1,6 @@
 #include "Grader.h"
 
-double Grader::curretCalculatedGrade(vector<int> grades) {
+double Grader::currentGrade(vector<int> grades) {
     return 0;
 }
 
@@ -8,6 +8,5 @@ double Grader::maximumGradeAchievable(vector<int> grades) {
     return 0;
 }
 
-void Grader::getAllGrades(vector<int>, vector<int>, int, int, int) {
-
+void Grader::startGrading() {
 }
