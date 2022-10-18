@@ -15,6 +15,7 @@ Our program does abc because xyz...
 
 # Proof of Planning: Pseudocode
 ```
+##Main
 #include "Grader.h"
 
 void getInput(Grader &grader);
