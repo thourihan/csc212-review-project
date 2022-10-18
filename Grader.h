@@ -12,9 +12,12 @@ class Grader {
         int reviewProject;
         vector<vector<int>> allGrades;
 
+        double currentGrade;
+        double maxGradeAchievable;
+
         void startGrading();
-        double currentGrade(vector<int> grades);
-        double maximumGradeAchievable(vector<int> grades);
+        double getCurrentGrade(vector<vector<int>> grades);
+        double getMaxGradeAchievable(vector<vector<int>> grades);
 
 };
 
