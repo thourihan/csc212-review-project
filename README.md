@@ -114,7 +114,7 @@ void Grader::startGrading() {
 
 # Proof of Planning: Flowcharts
 ## Get Input function flow chart
-![](Getinput flow chart.png)
+![](Getinput%20flow%20chart.png)
 # Algorithm explained: Input/Output and Reasoning
 
 # Instructions for Input && Compiling Program
