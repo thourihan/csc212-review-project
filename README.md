@@ -55,7 +55,9 @@ void printResults(Grader &grader){
     // Show the maximum possible grade achievable if the student earns a 100 on everything in the future
 }
 ```
+
 #Header File
+
 ```
 #ifndef CSC212_REVIEW_PROJECT_GRADER_H
 #define CSC212_REVIEW_PROJECT_GRADER_H
@@ -81,8 +83,8 @@ class Grader {
 };
 
 
-#endif //CSC212_REVIEW_PROJECT_GRADER_H```
-
+#endif //CSC212_REVIEW_PROJECT_GRADER_H
+```
 
 # Proof of Planning: Flowcharts
 
