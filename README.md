@@ -113,6 +113,7 @@ void Grader::startGrading() {
 ```
 
 # Proof of Planning: Flowcharts
+## Get Input function flow chart
 
 # Algorithm explained: Input/Output and Reasoning
 
