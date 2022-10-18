@@ -25,6 +25,7 @@ void getInput(Grader &grader){
         // Prompt user how many grades they have
         // For each grade the user has to enter:
             // Add grade to its category vector in the Grader class instance
+            // Also add grade * its weight to the allGradesWeighted vector
 }
 
 void printResults(Grader &grader){
