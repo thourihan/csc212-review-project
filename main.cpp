@@ -69,7 +69,7 @@ void getInput(Grader &grader){
 
 void printResults(Grader &grader){
     // Display each property from the grader class to the user
-
+    cout << "Your current grade for the class: " << grader.currentGrade << endl;
     // Display the student's current grade
         // Show a breakdown of the student's grade by each assignment
 
