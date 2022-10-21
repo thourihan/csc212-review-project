@@ -10,6 +10,9 @@ class Grader {
         double termProject;
         double finalExam;
         double reviewProject;
+        double lGrade;
+        double aGrade;
+        double weight;
         vector<double> allGradesWeighted;
 
         double currentGrade;
@@ -17,9 +20,10 @@ class Grader {
 
         void startGrading();
         double getCurrentGrade();
+        void weightGrades();
         double getMaxGradeAchievable();
 
 };
 
 
-#endif //CSC212_REVIEW_PROJECT_GRADER_H
+#endif
