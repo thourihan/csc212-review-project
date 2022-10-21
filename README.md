@@ -137,29 +137,32 @@ void Grader::startGrading() {
 ![](Main%20function%20flow%20chart.png)
 ## Get Input function flow chart
 ![](Getinput%20flow%20chart.png)
-# Algorithm explained: Input/Output and Reasoning
-    Input using std::cin guided by std::cout prompts
-    Output using std::cout
+## Algorithm explained: Input/Output and Reasoning
+Input using std::cin and guided by std::cout prompts
+Output using std::cout
+
 This input/output structure allowed for a highly dynamic approach that anticipated quick and intuitive data collection for a wide array of students. Output was straightforward and efficient
 
-Input: for each of the five grade categories, the first prompt would be the number of grades the user wishes to enter. They would thereafter be prompted to input that many grades. This repeats five times. For grade categories that contain only one assignment (Term Project, Final Exam, and Review Project), a number greater than 1 will prompt only once.
+# Input: 
+for each of the five grade categories, the first prompt would be the number of grades the user wishes to enter. They would thereafter be prompted to input that many grades. This repeats five times. For grade categories that contain only one assignment (Term Project, Final Exam, and Review Project), a number greater than 1 will prompt only once.
 
-Output:
-- Average Lab Grade
-- Average Assignment Grade
-- Current Grade
-- Whether user can skip final exam with current grade (Current grade includes review project, so the review project grade is subtracted from the current grade for the calculation)
-- Maximum Achievable Grade
+# Output:
+1. Average Lab Grade
+2. Average Assignment Grade
+3. Current Grade
+4. Whether user can skip final exam with current grade (Current grade includes review project, so the review project grade is subtracted from the current grade for the calculation)
+5. Maximum Achievable Grade
 
 # Mock Datasets
 Input one of these lines upon first std::cin prompt:
-    4 100 100 100 100 3 100 100 90 1 85 0 1 75
-    10 100 100 100 100 100 100 100 100 100 100 5 90 100 87 100 90 1 90 1 82 1 100
-    2 0 100 2 30 0 0 0 1 100
-    6 100 100 0 0 100 100 3 50 50 60 1 90 0 0
+- 4 100 100 100 100 3 100 100 90 1 85 0 1 75
+- 10 100 100 100 100 100 100 100 100 100 100 5 90 100 87 100 90 1 90 1 82 1 100
+- 2 0 100 2 30 0 0 0 1 100
+- 6 100 100 0 0 100 100 3 50 50 60 1 90 0 0
 
 # Instructions for Input && Compiling Program
 
 Compile program with command:
 g++ main.cpp Grader.cpp -o prog && ./prog
+
 Input according to prompts. For each of the five categories, input the number of grades for that category, then input each grade. This can be done sequentially or all in a single line.
