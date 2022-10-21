@@ -156,6 +156,7 @@ for each of the five grade categories, the first prompt would be the number of g
 
 ## Mock Datasets
 Input one of these lines upon first std::cin prompt:
+
     ``4 100 100 100 100 3 100 100 90 1 85 0 1 75
     
     10 100 100 100 100 100 100 100 100 100 100 5 90 100 87 100 90 1 90 1 82 1 100
