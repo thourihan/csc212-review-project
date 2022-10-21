@@ -144,6 +144,10 @@ Output used std::cout
 
 This input/output structure allowed for a highly dynamic approach that anticipated quick and intuitive data collection for a wide array of students. Output was straightforward and efficient
 
+This specific style of development was important to our group, because calculating a grade is in truth a very simple mathematical operation. We wanted it to be presented in a simple manner. No student should have to create a text file just to calculate their grade.
+
+Another goal we strived for was to provide any useful information a student might want without overwhelming them with inputs and outputs to ensure are program was as helpful as possible.
+
 ## Input: 
 for each of the five grade categories, the first prompt would be the number of grades the user wishes to enter. They would thereafter be prompted to input that many grades. This repeats five times. For grade categories that contain only one assignment (Term Project, Final Exam, and Review Project), a number greater than 1 will prompt only once.
 
