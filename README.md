@@ -11,7 +11,7 @@ Our program does abc because xyz...
 - Phakeo - Created flowcharts and videos demonstrating how program runs. Helped with program pseudocode. 
 - Henry - def
 - Tim - Created pseudocode for main.cpp and Grader.cpp. Created Grader.h. Implemented code for Grader.cpp. Helped with readme.md
-- Jagger - jkl
+- Jagger - Implemented code for Grader.cpp. Helped with readme.md
 
 # Proof of Planning: Pseudocode
 ## Main function Skeleton
@@ -93,20 +93,36 @@ class Grader {
 ```
 #include "Grader.h"
 
-double Grader::getCurrentGrade(vector<vector<int>> allGrades) {
-    // Make a variable maxGrade = 100
-    // For each value in the allGrades vector
-        // Subtract 100 by weighted value of grade
+double Grader::getCurrentGrade() {
+    // add each weighted grade to the total grade vector
+    // create total grade
+    // add review project points
         
-    // Return maxGrade
+    // return currentGrade
 }
 
-double Grader::getMaxGradeAchievable(vector<vector<int>> allGrades) {
+
+void Grader::weightGrades() {
+    
+    //Goes through each grade category and adds the weighted value of each individual assignment, excluding review project grade
+        //adds cumulative weight if a category has an entry
+}
+
+double Grader::getMaxGradeAchievable() {
     // Check if current size of allGrades is as big as it can be
-    // If it is not, then add 100s for each grade until allGrades
+    // If it is not, then add 100s for each grade
+    
+    // Recalculate weights with new values included
+    weightGrades();
+    
+    // Calculate grade with added 100s
+    // return getCurrentGrade();
 }
 
 void Grader::startGrading() {
+    
+    // Set all weighted grades
+    weightGrades();
     
     // Get current grade
     currentGrade = getCurrentGrade(this->allGrades);
@@ -122,8 +138,28 @@ void Grader::startGrading() {
 ## Get Input function flow chart
 ![](Getinput%20flow%20chart.png)
 # Algorithm explained: Input/Output and Reasoning
+    Input using std::cin guided by std::cout prompts
+    Output using std::cout
+This input/output structure allowed for a highly dynamic approach that anticipated quick and intuitive data collection for a wide array of students. Output was straightforward and efficient
+
+Input: for each of the five grade categories, the first prompt would be the number of grades the user wishes to enter. They would thereafter be prompted to input that many grades. This repeats five times. For grade categories that contain only one assignment (Term Project, Final Exam, and Review Project), a number greater than 1 will prompt only once.
+
+Output:
+- Average Lab Grade
+- Average Assignment Grade
+- Current Grade
+- Whether user can skip final exam with current grade (Current grade includes review project, so the review project grade is subtracted from the current grade for the calculation)
+- Maximum Achievable Grade
+
+# Mock Datasets
+Input one of these lines upon first std::cin prompt:
+    4 100 100 100 100 3 100 100 90 1 85 0 1 75
+    10 100 100 100 100 100 100 100 100 100 100 5 90 100 87 100 90 1 90 1 82 1 100
+    2 0 100 2 30 0 0 0 1 100
+    6 100 100 0 0 100 100 3 50 50 60 1 90 0 0
 
 # Instructions for Input && Compiling Program
 
-
-
+Compile program with command:
+g++ main.cpp Grader.cpp -o prog && ./prog
+Input according to prompts. For each of the five categories, input the number of grades for that category, then input each grade. This can be done sequentially or all in a single line.
