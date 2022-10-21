@@ -66,24 +66,28 @@ using namespace std;
 
 class Grader {
     public:
-        vector<int> labGrades;
-        vector<int> assignmentGrades;
-        int termProject;
-        int finalExam;
-        int reviewProject;
-        vector<vector<int>> allGrades;
+        vector<double> labGrades;
+        vector<double> assignmentGrades;
+        double termProject;
+        double finalExam;
+        double reviewProject;
+        double lGrade;
+        double aGrade;
+        double weight;
+        vector<double> allGradesWeighted;
 
         double currentGrade;
         double maxGradeAchievable;
 
         void startGrading();
-        double getCurrentGrade(vector<vector<int>> grades);
-        double getMaxGradeAchievable(vector<vector<int>> grades);
+        double getCurrentGrade();
+        void weightGrades();
+        double getMaxGradeAchievable();
 
 };
 
 
-#endif //CSC212_REVIEW_PROJECT_GRADER_H
+#endif
 ```
 ## Grader Class
 ```
