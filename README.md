@@ -138,9 +138,9 @@ void Grader::startGrading() {
 ## Get Input function flow chart
 ![](Getinput%20flow%20chart.png)
 # Algorithm explained: Input/Output and Reasoning
-Input using std::cin and guided by std::cout prompts
+Input used std::cin and was guided by std::cout prompts
 
-Output using std::cout
+Output used std::cout
 
 This input/output structure allowed for a highly dynamic approach that anticipated quick and intuitive data collection for a wide array of students. Output was straightforward and efficient
 
@@ -156,13 +156,13 @@ for each of the five grade categories, the first prompt would be the number of g
 
 ## Mock Datasets
 Input one of these lines upon first std::cin prompt:
-    ``4 100 100 100 100 3 100 100 90 1 85 0 1 75``
+    ``4 100 100 100 100 3 100 100 90 1 85 0 1 75
     
-    ``10 100 100 100 100 100 100 100 100 100 100 5 90 100 87 100 90 1 90 1 82 1 100``
+    10 100 100 100 100 100 100 100 100 100 100 5 90 100 87 100 90 1 90 1 82 1 100
     
-    ``2 0 100 2 30 0 0 0 1 100``
+    2 0 100 2 30 0 0 0 1 100
     
-    ``6 100 100 0 0 100 100 3 50 50 60 1 90 0 0``
+    6 100 100 0 0 100 100 3 50 50 60 1 90 0 0``
 
 ## Instructions for Input && Compiling Program
 
