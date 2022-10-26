@@ -137,6 +137,8 @@ void Grader::startGrading() {
 ![](main%20function%20flow%20chart.drawio%20(1).png)
 ## Get Input function flow chart
 ![](Get%20input%20program%20flow%20chart.drawio%20(2).png)
+## Print Results flow chart
+![](printResults.drawio.png)
 # Algorithm explained: Input/Output and Reasoning
 Input used std::cin and was guided by std::cout prompts
 
