@@ -141,9 +141,13 @@ void Grader::startGrading() {
 ![](printResults.drawio.png)
 ## Grader class flow chart
 ### getCurrentGrade function flow chart
+![](getCurrentGradefunction%20flowchart%20.drawio.png)
 ### weightGrades function flow chart
+![](weightGradefunction.drawio.png)
 ### getMaxAchievable function flow chart
+![](get%20max%20grade.drawio.png)
 ### startGrading function flow chart
+![](startGrading.drawio.png)
 # Algorithm explained: Input/Output and Reasoning
 Input used std::cin and was guided by std::cout prompts
 
