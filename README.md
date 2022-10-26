@@ -135,10 +135,15 @@ void Grader::startGrading() {
 # Proof of Planning: Flowcharts
 ## Main function flow chart 
 ![](main%20function%20flow%20chart.drawio%20(1).png)
-## Get Input function flow chart
+### Get Input function flow chart
 ![](Get%20input%20program%20flow%20chart.drawio%20(2).png)
-## Print Results flow chart
+### Print Results flow chart
 ![](printResults.drawio.png)
+## Grader class flow chart
+### getCurrentGrade function flow chart
+### weightGrades function flow chart
+### getMaxAchievable function flow chart
+### startGrading function flow chart
 # Algorithm explained: Input/Output and Reasoning
 Input used std::cin and was guided by std::cout prompts
 
