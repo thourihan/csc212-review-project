@@ -189,4 +189,4 @@ Compile program with command:
 Input according to prompts. For each of the five categories, input the number of grades for that category, then input each grade. This can be done sequentially or all in a single line.
 
 ## Video
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/fkIq7D_I4zM/0.jpg)](http://www.youtube.com/watch?fkIq7D_I4zM "Csc 212 Review Project Code Analysis no cc")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/fkIq7D_I4zM/0.jpg)](http://www.youtube.com/watch?v=fkIq7D_I4zM "Csc 212 Review Project Code Analysis no cc")
