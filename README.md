@@ -9,9 +9,9 @@ Our program does abc because xyz...
 
 ## Group Member Contributions
 - Phakeo - Created flowcharts and videos demonstrating how program runs. Helped with program pseudocode. 
-- Henry - def
-- Tim - Created pseudocode for main.cpp and Grader.cpp. Created Grader.h. Implemented code for Grader.cpp. Helped with readme.md
-- Jagger - Implemented code for Grader.cpp. Helped with readme.md
+- Henry - Implemented code for main.cpp. 
+- Tim - Created skeleton for main.cpp, Grader.cpp, Grader.h. Implemented code for Grader.cpp. Helped with readme.md
+- Jagger - Implemented code for Grader.cpp. Helped with readme.md. 
 
 # Proof of Planning: Pseudocode
 ## Main function Skeleton
