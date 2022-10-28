@@ -187,3 +187,6 @@ Compile program with command:
     g++ main.cpp Grader.cpp -o prog && ./prog
 
 Input according to prompts. For each of the five categories, input the number of grades for that category, then input each grade. This can be done sequentially or all in a single line.
+
+## Video
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/44yi8XSHxrU/0.jpg)](http://www.youtube.com/watch?v=44yi8XSHxrU "Csc 212 Review Project Code Analysis")
